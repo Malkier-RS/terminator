@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "title": "Terminator Fitness Club & Superium Fitness by Terminator",
+    "description": "Terminator Fitness Club & Superium Fitness by Terminator — повеќе од теретана. Модерни простори, професионална атмосфера и 4 локации во Скопје.",
+    "ogTitle": "Terminator Fitness Club & Superium Fitness | Повеќе од теретана",
+    "ogDescription": "Модерно опремени теретани, професионална атмосфера и простор каде секој може да напредува — од почетник до напреден."
+  },
+  "nav": {
+    "home": "Почетна",
+    "about": "За нас",
+    "locations": "Локации",
+    "pricing": "Ценовник",
+    "gallery": "Галерија",
+    "contact": "Контакт"
+  },
+  "hero": {
+    "title": "TERMINATOR FITNESS CLUB & SUPERIUM FITNESS BY TERMINATOR",
+    "subtitle": "Повеќе од теретана.",
+    "intro": "Terminator Fitness Club & Superium Fitness by Terminator е место каде тренингот, дисциплината и добрата енергија се среќаваат. Модерно опремени теретани, професионална атмосфера и простор каде секој може да напредува — без разлика дали си почетник или напреден.",
+    "ctaJoin": "Приклучи се",
+    "ctaLocations": "Нашите локации",
+    "ctaPricing": "Ценовник",
+    "ctaContact": "Контакт"
+  },
+  "highlights": {
+    "equipment": {
+      "title": "Модерна опрема",
+      "description": "Најнова кардио и силовна опрема за ефикасен и безбеден тренинг."
+    },
+    "atmosphere": {
+      "title": "Професионална атмосфера",
+      "description": "Мотивирачки простор каде дисциплината и добрата енергија се чувствуваат секој ден."
+    },
+    "locations": {
+      "title": "Повеќе локации",
+      "description": "Четири локации низ Скопје — избери ја онаа што ти одговара."
+    }
+  },
+  "about": {
+    "title": "Кои сме ние",
+    "story": "Terminator Fitness Club е фитнес бренд создаден да понуди квалитетен простор за тренинг, мотивирачка атмосфера и модерни услови за вежбање.",
+    "missionLabel": "Мисија",
+    "mission": "Секој член да се чувствува добредојден, мотивиран и посилен ден по ден.",
+    "stats": {
+      "locations": "локации",
+      "members": "членови",
+      "years": "години постоење"
+    }
+  },
+  "locations": {
+    "title": "Локации",
+    "subtitle": "Најди ја теретаната што ти одговара",
+    "viewOnMap": "Види на мапа",
+    "workingHours": "Работно време",
+    "phone": "Телефон",
+    "items": [
+      {
+        "id": "aerodrom",
+        "name": "TERMINATOR FITNESS CLUB – AERODROM",
+        "address": "Ул. \"Симеон Кавракиров\" bb, Мичурин, Скопје",
+        "hours": [
+          "Пон–Пет: 10:30 – 22:00",
+          "Сабота: 12:00 – 22:00"
+        ],
+        "phone": "078 323 388",
+        "description": "Модерен и целосно опремен простор за тренинг со кардио и силовна зона.",
+        "mapUrl": "https://maps.google.com/?q=Terminator+Fitness+Club+Aerodrom+Skopje"
+      },
+      {
+        "id": "superium",
+        "name": "SUPERIUM FITNESS BY TERMINATOR",
+        "address": "Бул. Видое Смилевски Бато 73, Ново Лисиче, Реонски Центар, зад Жито Маркет и КАМ",
+        "hours": [
+          "Пон–Пет: 07:00 – 22:00",
+          "Сабота: 10:00 – 21:00",
+          "Недела: 12:00 – 18:00"
+        ],
+        "phone": "+389 78 359 359",
+        "mapUrl": "https://maps.google.com/?q=Superium+Fitness+by+Terminator+Skopje"
+      },
+      {
+        "id": "hrom",
+        "name": "FITNESS CLUB TERMINATOR – HROM",
+        "address": "Лихнида 1, Скопје",
+        "hours": [
+          "Пон–Пет: 09:00 – 22:00",
+          "Сабота: 09:00 – 21:00"
+        ],
+        "mapUrl": "https://maps.google.com/?q=Fitness+Club+Terminator+Hrom+Skopje"
+      },
+      {
+        "id": "novo-lisiche",
+        "name": "TERMINATOR FITNESS CLUB – NOVO LISICHE",
+        "address": "Ул. Февруарски Поход бр. 46, Ново Лисиче, под Рамстор",
+        "hours": [
+          "Пон–Пет: 10:00 – 22:00",
+          "Сабота: 12:00 – 22:00"
+        ],
+        "mapUrl": "https://maps.google.com/?q=Terminator+Fitness+Club+Novo+Lisiche+Skopje"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Избери ја твојата членарина",
+    "subtitle": "Флексибилни опции за секој стил на тренинг",
+    "monthly": "Месечна членарина",
+    "monthlyPlans": [
+      { "location": "Aerodrom", "price": "1200 ден" },
+      { "location": "Novo Lisiche & Hrom", "price": "1500 ден" },
+      { "location": "Superium", "price": "2000 ден" }
+    ],
+    "dayPass": "Дневен пас",
+    "dayPassPrice": "500 ден",
+    "personalTraining": "Личен тренинг",
+    "personalTrainingNote": "Наскоро / Ќе биде додадено",
+    "cta": "Приклучи се сега"
+  },
+  "gallery": {
+    "title": "Атмосфера • Тренинг • Енергија",
+    "subtitle": "Погледни го духот на Terminator Fitness",
+    "viewAll": "Погледни ја целата галерија",
+    "explore": "Истражи",
+    "photoCount": "слики",
+    "pageTitle": "Галерија",
+    "pageSubtitle": "Истражи ги нашите простори, атмосферата и тренинг моментите",
+    "pageDescription": "Галерија на Terminator Fitness Club & Superium Fitness — опрема, атмосфера, интериер и тренинг моменти.",
+    "filterAll": "Сите",
+    "close": "Затвори",
+    "prev": "Претходна",
+    "next": "Следна",
+    "categories": {
+      "equipment": "Опрема",
+      "interior": "Интериер",
+      "training": "Тренинг моменти",
+      "atmosphere": "Атмосфера"
+    }
+  },
+  "contact": {
+    "title": "Контакт",
+    "subtitle": "Стапи во контакт со нас",
+    "phone": "+389 78 359 359",
+    "email": "info@terminatorfitness.mk",
+    "instagramAccounts": [
+      {
+        "name": "Terminator Fitness Club",
+        "handle": "@terminatorfitnessclub",
+        "url": "https://www.instagram.com/terminatorfitnessclub/"
+      },
+      {
+        "name": "Superium Fitness by Terminator",
+        "handle": "@superium_fitness_by_terminator",
+        "url": "https://www.instagram.com/superium_fitness_by_terminator/"
+      }
+    ],
+    "facebook": "Фитнес Клуб Терминатор",
+    "facebookUrl": "https://www.facebook.com/p/%D0%A4%D0%B8%D1%82%D0%BD%D0%B5%D1%81-%D0%9A%D0%BB%D1%83%D0%B1-%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80-1999-100064194062468/",
+    "followUs": "Следете не",
+    "form": {
+      "name": "Име и презиме",
+      "email": "Е-пошта",
+      "phone": "Телефон",
+      "message": "Порака",
+      "submit": "Испрати порака",
+      "success": "Вашата порака е успешно испратена. Ќе ве контактираме наскоро.",
+      "error": "Нешто тргна наопаку. Обидете се повторно."
+    }
+  },
+  "footer": {
+    "tagline": "Повеќе од теретана.",
+    "rights": "© 2026 Terminator Fitness Club & Superium Fitness by Terminator. Сите права задржани."
+  }
+}

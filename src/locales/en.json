@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "title": "Terminator Fitness Club & Superium Fitness by Terminator",
+    "description": "Terminator Fitness Club & Superium Fitness by Terminator — more than a gym. Modern facilities, professional atmosphere, and 4 locations across Skopje.",
+    "ogTitle": "Terminator Fitness Club & Superium Fitness | More Than a Gym",
+    "ogDescription": "State-of-the-art equipment, a professional atmosphere, and a space where everyone can progress — from beginner to advanced."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "locations": "Locations",
+    "pricing": "Membership & Pricing",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "TERMINATOR FITNESS CLUB & SUPERIUM FITNESS BY TERMINATOR",
+    "subtitle": "More Than a Gym.",
+    "intro": "Terminator Fitness Club & Superium Fitness by Terminator is a place where training, discipline, and good energy come together. Modern equipped gyms, a professional atmosphere, and a space where everyone can progress — whether beginner or advanced.",
+    "ctaJoin": "Join Now",
+    "ctaLocations": "Our Locations",
+    "ctaPricing": "Pricing",
+    "ctaContact": "Contact"
+  },
+  "highlights": {
+    "equipment": {
+      "title": "Modern Equipment",
+      "description": "Latest cardio and strength equipment for effective, safe training."
+    },
+    "atmosphere": {
+      "title": "Professional Atmosphere",
+      "description": "A motivating environment where discipline and positive energy are felt every day."
+    },
+    "locations": {
+      "title": "Multiple Locations",
+      "description": "Four locations across Skopje — choose the one that suits you."
+    }
+  },
+  "about": {
+    "title": "Who We Are",
+    "story": "Terminator Fitness Club is a fitness brand created to offer a quality training space, motivating atmosphere, and modern conditions for exercising.",
+    "missionLabel": "Mission",
+    "mission": "Every member should feel welcome, motivated, and stronger day by day.",
+    "stats": {
+      "locations": "locations",
+      "members": "members",
+      "years": "years of existence"
+    }
+  },
+  "locations": {
+    "title": "Locations",
+    "subtitle": "Find the gym that works for you",
+    "viewOnMap": "View on Map",
+    "workingHours": "Working Hours",
+    "phone": "Phone",
+    "items": [
+      {
+        "id": "aerodrom",
+        "name": "TERMINATOR FITNESS CLUB – AERODROM",
+        "address": "Ul. \"Simeon Kavrakirov\" bb, Michurin, Skopje",
+        "hours": [
+          "Mon–Fri: 10:30 – 22:00",
+          "Sat: 12:00 – 22:00"
+        ],
+        "phone": "078 323 388",
+        "description": "Modern and fully equipped training space with cardio and strength area.",
+        "mapUrl": "https://maps.google.com/?q=Terminator+Fitness+Club+Aerodrom+Skopje"
+      },
+      {
+        "id": "superium",
+        "name": "SUPERIUM FITNESS BY TERMINATOR",
+        "address": "Bul. Vidoe Smilevski Bato 73, Novo Lisiche, Reonski Centar, behind Zhito Market and KAM",
+        "hours": [
+          "Mon–Fri: 07:00 – 22:00",
+          "Sat: 10:00 – 21:00",
+          "Sun: 12:00 – 18:00"
+        ],
+        "phone": "+389 78 359 359",
+        "mapUrl": "https://maps.google.com/?q=Superium+Fitness+by+Terminator+Skopje"
+      },
+      {
+        "id": "hrom",
+        "name": "FITNESS CLUB TERMINATOR – HROM",
+        "address": "Lihnida 1, Skopje",
+        "hours": [
+          "Mon–Fri: 09:00 – 22:00",
+          "Sat: 09:00 – 21:00"
+        ],
+        "mapUrl": "https://maps.google.com/?q=Fitness+Club+Terminator+Hrom+Skopje"
+      },
+      {
+        "id": "novo-lisiche",
+        "name": "TERMINATOR FITNESS CLUB – NOVO LISICHE",
+        "address": "Ul. Fevruarski Pohod br. 46, Novo Lisiche, under Ramstor",
+        "hours": [
+          "Mon–Fri: 10:00 – 22:00",
+          "Sat: 12:00 – 22:00"
+        ],
+        "mapUrl": "https://maps.google.com/?q=Terminator+Fitness+Club+Novo+Lisiche+Skopje"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Choose Your Membership",
+    "subtitle": "Flexible options for every training style",
+    "monthly": "Monthly Membership",
+    "monthlyPlans": [
+      { "location": "Aerodrom", "price": "1200 MKD" },
+      { "location": "Novo Lisiche & Hrom", "price": "1500 MKD" },
+      { "location": "Superium", "price": "2000 MKD" }
+    ],
+    "dayPass": "One Day Pass",
+    "dayPassPrice": "500 MKD",
+    "personalTraining": "Personal Training",
+    "personalTrainingNote": "Coming soon / To be added",
+    "cta": "Join Now"
+  },
+  "gallery": {
+    "title": "Atmosphere • Training • Energy",
+    "subtitle": "Experience the spirit of Terminator Fitness",
+    "viewAll": "View Full Gallery",
+    "explore": "Explore",
+    "photoCount": "photos",
+    "pageTitle": "Gallery",
+    "pageSubtitle": "Explore our spaces, atmosphere, and training moments",
+    "pageDescription": "Gallery of Terminator Fitness Club & Superium Fitness — equipment, atmosphere, interior, and training moments.",
+    "filterAll": "All",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next",
+    "categories": {
+      "equipment": "Equipment",
+      "interior": "Interior",
+      "training": "Training Moments",
+      "atmosphere": "Atmosphere"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us",
+    "phone": "+389 78 359 359",
+    "email": "info@terminatorfitness.mk",
+    "instagramAccounts": [
+      {
+        "name": "Terminator Fitness Club",
+        "handle": "@terminatorfitnessclub",
+        "url": "https://www.instagram.com/terminatorfitnessclub/"
+      },
+      {
+        "name": "Superium Fitness by Terminator",
+        "handle": "@superium_fitness_by_terminator",
+        "url": "https://www.instagram.com/superium_fitness_by_terminator/"
+      }
+    ],
+    "facebook": "Fitness Club Terminator",
+    "facebookUrl": "https://www.facebook.com/p/%D0%A4%D0%B8%D1%82%D0%BD%D0%B5%D1%81-%D0%9A%D0%BB%D1%83%D0%B1-%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80-1999-100064194062468/",
+    "followUs": "Follow Us",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Your message has been sent successfully. We will contact you soon.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "footer": {
+    "tagline": "More Than a Gym.",
+    "rights": "© 2026 Terminator Fitness Club & Superium Fitness by Terminator. All rights reserved."
+  }
+}

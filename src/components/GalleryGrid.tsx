@@ -103,13 +103,13 @@ export function GalleryGrid({ dict, initialCategory }: GalleryGridProps) {
         {filteredImages.length} {dict.gallery.photoCount}
       </p>
 
-      <div className="columns-1 gap-4 sm:columns-2 lg:columns-3 xl:columns-4">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {filteredImages.map((image, index) => (
           <button
             key={image.id}
             type="button"
             onClick={() => openLightbox(index)}
-            className="group mb-4 block w-full break-inside-avoid overflow-hidden rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent"
+            className="group block w-full overflow-hidden rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-accent"
           >
             <div className="relative aspect-[4/5] overflow-hidden">
               <Image

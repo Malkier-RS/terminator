@@ -203,7 +203,7 @@ export function Contact({ dict }: ContactProps) {
             {status.message && (
               <p
                 className={`mt-6 text-sm ${
-                  status.type === "success" ? "text-brand-accent" : "text-red-400"
+                  status.type === "success" ? "text-brand-accent" : "text-brand-muted"
                 }`}
               >
                 {status.message}

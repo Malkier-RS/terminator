@@ -1,0 +1,26 @@
+---
+description: Never commit or push to git unless the user explicitly asks
+alwaysApply: true
+---
+
+# Git — no commit or push without explicit request
+
+## Required behavior
+
+- **Never** run `git commit`, `git push`, `git add` (for the purpose of committing), or create/amend commits unless the user **explicitly** asks in the current message (e.g. "commit", "push", "napravi commit", "pushuj na git").
+- **Never** push to remote (including `git push`, `gh`, force push) unless explicitly requested.
+- Deploying (e.g. Vercel) is allowed when asked for deployment/preview — that is not the same as git push, but still do not commit local changes unless asked.
+
+## When the user asks to commit
+
+Follow the full git safety workflow: status, diff, log, draft message, commit, verify. Do not push unless they also ask to push.
+
+## If unsure
+
+Ask: "Da li želiš da napravim commit (i/ili push)?" — do not assume.
+
+## Examples
+
+- User: "promeni boju u srebro" → change code only, **no** commit/push.
+- User: "deployuj na vercel" → deploy only, **no** commit unless they also ask.
+- User: "commituj izmene" → commit; push only if they say push.

@@ -51,8 +51,22 @@
     "title": "Локации",
     "subtitle": "Најди ја теретаната што ти одговара",
     "viewOnMap": "Види на мапа",
+    "viewDetails": "Повеќе информации",
+    "closeDetails": "Затвори",
+    "amenitiesTitle": "Содржини и услуги",
     "workingHours": "Работно време",
     "phone": "Телефон",
+    "amenityLabels": {
+      "cardio": "Кардио зона",
+      "strength": "Силовна зона",
+      "machines": "Тренажер апарати",
+      "freeWeights": "Слободни тегови",
+      "parking": "Паркинг",
+      "showers": "Тушеви",
+      "lockers": "Ормани",
+      "airConditioning": "Клима",
+      "changingRooms": "Соблекувални"
+    },
     "items": [
       {
         "id": "aerodrom",
@@ -64,6 +78,13 @@
         ],
         "phone": "078 323 388",
         "description": "Модерен и целосно опремен простор за тренинг со кардио и силовна зона.",
+        "extendedDescription": "Terminator Fitness Club Aerodrom нуди комплетен простор за силовен и кардио тренинг, со модерна опрема и професионална атмосфера за почетници и напредни вежбачи.",
+        "highlights": [
+          "Кардио и силовна зона на едно место",
+          "Модерна опрема за целосен тренинг",
+          "Лесен пристап во Aerodrom"
+        ],
+        "amenities": ["cardio", "strength", "machines", "freeWeights", "lockers", "parking", "airConditioning", "changingRooms"],
         "mapUrl": "https://maps.google.com/?q=Terminator+Fitness+Club+Aerodrom+Skopje"
       },
       {
@@ -76,6 +97,14 @@
           "Недела: 12:00 – 18:00"
         ],
         "phone": "+389 78 359 359",
+        "description": "Премиум теретана со проширено работно време и целосни услови за тренинг.",
+        "extendedDescription": "Superium Fitness by Terminator е најкомплетниот клуб во мрежата — со најдолго работно време, тушеви, паркинг и премиум опрема за сериозен тренинг.",
+        "highlights": [
+          "Работи и недела",
+          "Најрано отворање (07:00)",
+          "Премиум услови и опрема"
+        ],
+        "amenities": ["cardio", "strength", "machines", "freeWeights", "parking", "showers", "lockers", "airConditioning", "changingRooms"],
         "mapUrl": "https://maps.google.com/?q=Superium+Fitness+by+Terminator+Skopje"
       },
       {
@@ -86,6 +115,14 @@
           "Пон–Пет: 09:00 – 22:00",
           "Сабота: 09:00 – 21:00"
         ],
+        "description": "Функционален тренинг простор со рана отвореност и целодневна достапност во работните денови.",
+        "extendedDescription": "Fitness Club Terminator Hrom е идеален за тренинг пред или после работа — со комплетна кардио и силовна зона и практична локација.",
+        "highlights": [
+          "Отворање од 09:00",
+          "Компактен и функционален простор",
+          "Кардио и силовна опрема"
+        ],
+        "amenities": ["cardio", "strength", "machines", "freeWeights", "lockers", "airConditioning", "changingRooms"],
         "mapUrl": "https://maps.google.com/?q=Fitness+Club+Terminator+Hrom+Skopje"
       },
       {
@@ -96,6 +133,14 @@
           "Пон–Пет: 10:00 – 22:00",
           "Сабота: 12:00 – 22:00"
         ],
+        "description": "Теретана под Ramstor со модерна опрема и достапен паркинг.",
+        "extendedDescription": "Terminator Fitness Club Novo Lisiche се наоѓа во центарот на населбата, со лесен пристап, паркинг и целосно опремени зони за тренинг.",
+        "highlights": [
+          "Локација под Ramstor",
+          "Паркинг во близина",
+          "Модерна тренинг зона"
+        ],
+        "amenities": ["cardio", "strength", "machines", "freeWeights", "lockers", "parking", "airConditioning", "changingRooms"],
         "mapUrl": "https://maps.google.com/?q=Terminator+Fitness+Club+Novo+Lisiche+Skopje"
       }
     ]

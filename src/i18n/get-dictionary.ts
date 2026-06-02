@@ -1,5 +1,29 @@
 import type { Locale } from "./config";
 
+export type LocationAmenityKey =
+  | "cardio"
+  | "strength"
+  | "machines"
+  | "freeWeights"
+  | "parking"
+  | "showers"
+  | "lockers"
+  | "airConditioning"
+  | "changingRooms";
+
+export type LocationItem = {
+  id: string;
+  name: string;
+  address: string;
+  hours: string[];
+  phone?: string;
+  description?: string;
+  extendedDescription?: string;
+  highlights?: string[];
+  amenities: LocationAmenityKey[];
+  mapUrl?: string;
+};
+
 export type Dictionary = {
   meta: {
     title: string;
@@ -44,17 +68,13 @@ export type Dictionary = {
     title: string;
     subtitle: string;
     viewOnMap: string;
+    viewDetails: string;
+    closeDetails: string;
+    amenitiesTitle: string;
     workingHours: string;
     phone: string;
-    items: Array<{
-      id: string;
-      name: string;
-      address: string;
-      hours: string[];
-      phone?: string;
-      description?: string;
-      mapUrl?: string;
-    }>;
+    amenityLabels: Record<LocationAmenityKey, string>;
+    items: LocationItem[];
   };
   pricing: {
     title: string;
@@ -117,8 +137,10 @@ export type Dictionary = {
 };
 
 const dictionaries: Record<Locale, () => Promise<Dictionary>> = {
-  mk: () => import("@/locales/mk.json").then((module) => module.default),
-  en: () => import("@/locales/en.json").then((module) => module.default),
+  mk: () =>
+    import("@/locales/mk.json").then((module) => module.default as Dictionary),
+  en: () =>
+    import("@/locales/en.json").then((module) => module.default as Dictionary),
 };
 
 export async function getDictionary(locale: Locale): Promise<Dictionary> {

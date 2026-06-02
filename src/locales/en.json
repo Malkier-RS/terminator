@@ -51,8 +51,22 @@
     "title": "Locations",
     "subtitle": "Find the gym that works for you",
     "viewOnMap": "View on Map",
+    "viewDetails": "More Information",
+    "closeDetails": "Close",
+    "amenitiesTitle": "Facilities & Services",
     "workingHours": "Working Hours",
     "phone": "Phone",
+    "amenityLabels": {
+      "cardio": "Cardio Zone",
+      "strength": "Strength Zone",
+      "machines": "Training Machines",
+      "freeWeights": "Free Weights",
+      "parking": "Parking",
+      "showers": "Showers",
+      "lockers": "Lockers",
+      "airConditioning": "Air Conditioning",
+      "changingRooms": "Changing Rooms"
+    },
     "items": [
       {
         "id": "aerodrom",
@@ -64,6 +78,13 @@
         ],
         "phone": "078 323 388",
         "description": "Modern and fully equipped training space with cardio and strength area.",
+        "extendedDescription": "Terminator Fitness Club Aerodrom offers a complete strength and cardio training space with modern equipment and a professional atmosphere for beginners and advanced members.",
+        "highlights": [
+          "Cardio and strength zones in one place",
+          "Modern equipment for full-body training",
+          "Easy access in Aerodrom"
+        ],
+        "amenities": ["cardio", "strength", "machines", "freeWeights", "lockers", "parking", "airConditioning", "changingRooms"],
         "mapUrl": "https://maps.google.com/?q=Terminator+Fitness+Club+Aerodrom+Skopje"
       },
       {
@@ -76,6 +97,14 @@
           "Sun: 12:00 – 18:00"
         ],
         "phone": "+389 78 359 359",
+        "description": "Premium gym with extended hours and full training facilities.",
+        "extendedDescription": "Superium Fitness by Terminator is the most complete club in the network — with the longest hours, showers, parking, and premium equipment for serious training.",
+        "highlights": [
+          "Open on Sundays",
+          "Earliest opening (07:00)",
+          "Premium facilities and equipment"
+        ],
+        "amenities": ["cardio", "strength", "machines", "freeWeights", "parking", "showers", "lockers", "airConditioning", "changingRooms"],
         "mapUrl": "https://maps.google.com/?q=Superium+Fitness+by+Terminator+Skopje"
       },
       {
@@ -86,6 +115,14 @@
           "Mon–Fri: 09:00 – 22:00",
           "Sat: 09:00 – 21:00"
         ],
+        "description": "Functional training space with early opening and full weekday availability.",
+        "extendedDescription": "Fitness Club Terminator Hrom is ideal for training before or after work — with complete cardio and strength zones in a practical location.",
+        "highlights": [
+          "Opens from 09:00",
+          "Compact and functional layout",
+          "Cardio and strength equipment"
+        ],
+        "amenities": ["cardio", "strength", "machines", "freeWeights", "lockers", "airConditioning", "changingRooms"],
         "mapUrl": "https://maps.google.com/?q=Fitness+Club+Terminator+Hrom+Skopje"
       },
       {
@@ -96,6 +133,14 @@
           "Mon–Fri: 10:00 – 22:00",
           "Sat: 12:00 – 22:00"
         ],
+        "description": "Gym under Ramstor with modern equipment and accessible parking.",
+        "extendedDescription": "Terminator Fitness Club Novo Lisiche is located in the heart of the neighborhood, with easy access, parking, and fully equipped training zones.",
+        "highlights": [
+          "Location under Ramstor",
+          "Parking nearby",
+          "Modern training area"
+        ],
+        "amenities": ["cardio", "strength", "machines", "freeWeights", "lockers", "parking", "airConditioning", "changingRooms"],
         "mapUrl": "https://maps.google.com/?q=Terminator+Fitness+Club+Novo+Lisiche+Skopje"
       }
     ]
